@@ -1,0 +1,14 @@
+.header-main {
+    background-color: #4769ad;
+    height: 42px;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+
+}
+
+.header-main__wrapper {
+    height: inherit;
+    width: 1012px;
+    margin: auto;
+}

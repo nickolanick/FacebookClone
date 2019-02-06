@@ -1,0 +1,31 @@
+.button{
+padding: 5px;
+}
+.button--whitespace{
+    width: 100%;
+    border: none;
+    height: 100%;
+    color: #606770;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 2px 15px;
+
+}
+.button--grey-round{
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 2px 20px;
+}
+.button--grey-round:hover{
+    background-color: #F5F6E6;
+}
+.button--whitespace:hover{
+    background-color: #f5f6f7;
+}
+.button--blue{
+    border: none;
+    color: blue;
+}

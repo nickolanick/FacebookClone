@@ -1,0 +1,77 @@
+.basic-container {
+    margin: 0 0 15px 15px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.basic-container--no-padding {
+    padding: 0;
+    border-radius: inherit;
+}
+
+.basic-container__head {
+    display: flex;
+    padding: 5px 0;
+}
+
+.basic-container__head--grey {
+    background-color: #f5f6f7;
+    padding: 5px 5px;
+}
+
+.basic-container__lower-info {
+    color: #606770;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 2px;
+}
+
+.basic-container__search-wrap {
+    padding: 5px;
+}
+
+.basic-container__aside-information {
+    padding: 13px 5px;
+    flex: 2;
+}
+.basic-container__aside-information--first{
+    padding: 1px 10px;
+}
+
+.basic-container__title {
+    color: #365899;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.basic-container__information--text {
+    padding: 5px;
+}
+
+.basic-container__information--image-center {
+    padding-top: 12px;
+}
+.basic-container__information__smily-faces{
+    padding: 7px;
+}
+
+.basic-container__feedback {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.basic-container__feedback__icon-wrapper {
+    padding: 5px;
+    float: left;
+}
+.basic-container__feedback__icon--header--grey{
+    background-color: #616770;
+    border-radius: 5px;
+}
+.basic-container__feedback__icon--header {
+    font-size: 13px;
+    padding: 5px;
+    float: left;
+}

@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+//$main-header-height = 60;
+body,html{
+  height: 100%;
+}
+.main-header {
+  //height: 60px;
+
+  .main-header__wrapper {
+    display: flex;
+    padding: 8px;
+    .main-header__gmail-menu {
+      flex: 2;
+      display: flex;
+    }
+
+    .main-header__gmail-search {
+      flex: 8;
+      display: flex;
+
+      .main-header__search-box {
+
+        flex: 3;
+      }
+      .main-header__aside-block {
+        display:flex;
+        flex: 10;
+      }
+
+    }
+  }
+}
+
+//aside
+
+.aside-navigation {
+  width: 20%;
+  float: left;
+}
+
+//main
+
+.main-block {
+  width: 80%;
+  float: left;
+  height: calc(100% - 60px);
+
+  .main-block__navigation {
+    display: flex;
+  }
+  .main-block__navigation__letter-options {
+    flex: 1;
+  }
+  .main-block__navigation__letter-options--right {
+    //float: right;
+    ul {
+      float: right;
+    }
+  }
+
+  .letters {
+    overflow: scroll;
+    height: calc(100% - 50px);
+    padding: 5px;
+    .letters__single-letter--new {
+      background-color: #f5f7f7;
+
+    }
+    .letters__single-letter {
+      display: flex;
+      cursor: pointer;
+
+      .letters__single-letter__info-about {
+        flex: 3;
+        display: flex;
+      }
+      .letters__single-letter__pre-letter {
+        flex: 6;
+      }
+      .letters__single-letter__data-info {
+        flex: 1;
+      }
+
+    }
+    .letters__single-letter:hover{
+      //background-color: #4780de;
+      //padding: 2px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+  }
+}
+
+//list
+
+.list {
+
+  .list__item {
+    text-decoration: none;
+  }
+  .list__item--horizontal {
+    display: inline-block;
+  }
+}
+
+
+//custom-hr
+
+.custom-hr{
+  height: 2px;
+  width: 100%;
+  background-color: #f5f7f7;
+}

@@ -1,0 +1,29 @@
+.search {
+    height: inherit;
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.search__wrapper {
+    height: 24px;
+    padding: 10px 0;
+}
+
+.search__form {
+    float: left;
+    height: 22px;
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    /*box-sizing: border-box;*/
+}
+
+.search__form__button {
+    float: left;
+    height: inherit;
+    border: none;
+    padding: 0 10px;
+    background-color: #f5f6f7;
+}

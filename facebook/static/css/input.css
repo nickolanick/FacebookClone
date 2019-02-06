@@ -1,0 +1,33 @@
+.input {
+
+}
+
+.input--horizontal {
+    display: inline-block;
+}
+
+.input__regular {
+    float: left;
+}
+
+.input__search {
+    float: left;
+    height: inherit;
+    border: none;
+    width: calc(100% - 34px);
+}
+
+.input__main {
+    background-color: #fff;
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 26px;
+    left: -1px;
+    margin-left: 30px;
+    margin-top: 0;
+    max-width: 448px;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 48px;
+}
