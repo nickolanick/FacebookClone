@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="static/css/search.css">
     <link rel="stylesheet" href="static/css/navigation-bar.css">
     <link rel="stylesheet" href="static/css/button.css">
+    <link rel="stylesheet" href="static/css/aside-friends.css">
+
     <link rel="stylesheet" href="static/css/list.css">
     <title>Document</title>
 </head>
@@ -28,7 +30,7 @@
                 </div>
                 <form action="" class="search__form">
 
-                    <input type="text" aria-label="пошук" class="input input__search">
+                    <input type="text" placeholder="Пошук" class="input input__search">
                     <button class="search__form__button">
                         <div class="icon icon--search"></div>
                     </button>
@@ -93,6 +95,7 @@
 </header>
 
 <div class="content-wrapper">
+
     <div class="navigation-toolbar">
         <section class="block-navigation-mutant">
             <nav class="block-navigation-mutant__item">
@@ -100,7 +103,7 @@
 
                     <li class="vertical-list__item vertical-list__item--nav-bar vertical-list__item--nav-bar--space-bottom ">
                         <img src="static/img/me.jpg" alt="" class="image">
-                        <a href="#" class="">Mykola Biliayev</a>
+                        <a href="#" class="navigation-toolbar--title-name">Mykola Biliayev</a>
                     </li>
 
                     <li class="vertical-list__item vertical-list__item--nav-bar vertical-list__item--nav-bar--active">
@@ -145,7 +148,7 @@
 
                             </div>
                         </div>
-                        <a href="#">Entrepreneurial Mindset - 2018/2019</a></li>
+                        <a href="#">Lviv group</a></li>
 
                 </ul>
             </nav>
@@ -208,20 +211,28 @@
             </nav>
         </section>
     </div>
+    <div class="aside-friends">
+
+
+    </div>
     <main>
         <div class="middle-block">
             <section class="basic-container basic-container--no-padding">
                 <header class="basic-container__head basic-container__head--grey">
                     <h3 class="greenish">Створити допис</h3>
+
                 </header>
 
                 <div class="basic-container__search-wrap">
 
 
-                    <div class="input">
+                    <div class="input input--padding">
                         <img src="static/img/me.jpg" alt="" class="image image--big">
-                        <input class="input input__wide" type="text"
-                               aria-label="Що у вас на думці?">
+                        <input class="input__wide" type="text"
+                               placeholder="Що у вас на думці?">
+                    </div>
+                    <div class="hr-line">
+
                     </div>
                     <section class="basic-container__feedback">
                         <ul class="horizontal-list horizontal-list--full-width">
@@ -270,316 +281,458 @@
 
             </section>
             <section class="mainScroll">
-                <div class="basic-container">
-                    <header class="basic-container__head">
-                        <img src="static/img/me.jpg" alt="" class="image image--big">
-                        <h3 class="basic-container__title">Анатолій Ipsum</h3>
+                <div class="basic-container basic-container--no-padding">
+                    <div class="basic-container--inner-wrapper">
+                        <header class="basic-container__head">
+                            <img src="static/img/me.jpg" alt="" class="image image--medium">
+                            <h3 class="basic-container__title">Анатолій Ipsum</h3>
 
-                    </header>
-                    <article class="basic-container__information--wrapper">
-                        <div class="basic-container__information--text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
-                            nihil
-                            nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
-                            excepturi
-                            explicabo impedit nobis sequi? Beatae, sint!
+                        </header>
+                        <article class="basic-container__information--wrapper">
+                            <div class="basic-container__information--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
+                                nihil
+                                nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
+                                excepturi
+                                explicabo impedit nobis sequi? Beatae, sint!
+                            </div>
+                        </article>
+
+                        <div class="basic-container__information__smily-faces">
+                            <div class="icon__smily-faces icon__smily-faces--love">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--happy-face">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--shock">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--thumb-up">
+
+                            </div>
+                            <a href="#" class="basic-container__lower-info">Tarik Vitoshko та ще 93</a>
                         </div>
-                    </article>
 
-                    <div class="basic-container__information__smily-faces">
-                        <div class="icon__smily-faces icon__smily-faces--love">
+                        <div class="hr-line">
 
                         </div>
-                        <div class="icon__smily-faces icon__smily-faces--happy-face">
+                        <section class="basic-container__feedback">
+                            <ul class="horizontal-list horizontal-list--full-width">
+                                <li class="horizontal-list__item ">
 
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--shock">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--like">
 
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--thumb-up">
-
-                        </div>
-                        <a href="#" class="basic-container__lower-info">Tarik Vitoshko та ще 93</a>
-                    </div>
-
-                    <div class="hr-line">
-
-                    </div>
-                    <section class="basic-container__feedback">
-                        <ul class="horizontal-list horizontal-list--full-width">
-                            <li class="horizontal-list__item ">
-
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--like">
-
+                                            </div>
                                         </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Подобається
-                                    </h3>
-                                </button>
-                            </li>
-                            <li class="horizontal-list__item ">
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--comment">
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Подобається
+                                        </h3>
+                                    </button>
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--comment">
 
+                                            </div>
                                         </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Коментувати
-                                    </h3>
-                                </button>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Коментувати
+                                        </h3>
+                                    </button>
 
-                            </li>
-                            <li class="horizontal-list__item ">
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--twit">
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--twit">
 
+                                            </div>
                                         </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Поширити
-                                    </h3>
-                                </button>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Поширити
+                                        </h3>
+                                    </button>
 
-                            </li>
-                        </ul>
-                    </section>
-                </div>
-                <div class="basic-container">
-                    <header class="basic-container__head">
-                        <img src="static/img/me.jpg" alt="" class="image image--big">
-                        <h3 class="basic-container__title">Анатолій Ipsum</h3>
-
-                    </header>
-                    <article class="basic-container__information--wrapper">
-                        <div class="basic-container__information--text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
-                            nihil
-                            nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
-                            excepturi
-                            explicabo impedit nobis sequi? Beatae, sint!
-                        </div>
-                    </article>
-
-                    <div class="basic-container__information__smily-faces">
-                        <div class="icon__smily-faces icon__smily-faces--love .icon__smily-faces--first">
-
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--happy-face">
-
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--shock">
-
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--thumb-up">
-
-                        </div>
+                                </li>
+                            </ul>
+                        </section>
                     </div>
                     <div class="hr-line">
 
                     </div>
-                    <section class="basic-container__feedback">
-                        <ul class="horizontal-list horizontal-list--full-width">
-                            <li class="horizontal-list__item ">
+                    <section class="basic-container__comment">
 
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--like">
+                        <img src="static/img/me.jpg" alt="" class="image image--medium">
+                        <input type="text" placeholder="Напишіть коментар ..." class="basic-container__comment--input-field">
 
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Подобається
-                                    </h3>
-                                </button>
-                            </li>
-                            <li class="horizontal-list__item ">
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--comment">
-
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Коментувати
-                                    </h3>
-                                </button>
-
-                            </li>
-                            <li class="horizontal-list__item ">
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--twit">
-
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Поширити
-                                    </h3>
-                                </button>
-
-                            </li>
-                        </ul>
                     </section>
                 </div>
-                <div class="basic-container">
-                    <header class="basic-container__head">
-                        <img src="static/img/me.jpg" alt="" class="image image--big">
-                        <h3 class="basic-container__title">Анатолій Ipsum</h3>
+                <div class="basic-container basic-container--no-padding">
+                    <div class="basic-container--inner-wrapper">
+                        <header class="basic-container__head">
+                            <img src="static/img/me.jpg" alt="" class="image image--medium">
+                            <h3 class="basic-container__title">Анатолій Ipsum</h3>
 
-                    </header>
-                    <article class="basic-container__information--wrapper">
-                        <div class="basic-container__information--text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
-                            nihil
-                            nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
-                            excepturi
-                            explicabo impedit nobis sequi? Beatae, sint!
+                        </header>
+                        <article class="basic-container__information--wrapper">
+                            <div class="basic-container__information--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
+                                nihil
+                                nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
+                                excepturi
+                                explicabo impedit nobis sequi? Beatae, sint!
+                            </div>
+                        </article>
+
+                        <div class="basic-container__information__smily-faces">
+                            <div class="icon__smily-faces icon__smily-faces--love">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--happy-face">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--shock">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--thumb-up">
+
+                            </div>
+                            <a href="#" class="basic-container__lower-info">Tarik Vitoshko та ще 93</a>
                         </div>
-                    </article>
 
-                    <div class="basic-container__information__smily-faces">
-                        <div class="icon__smily-faces icon__smily-faces--love .icon__smily-faces--first">
+                        <div class="hr-line">
 
                         </div>
-                        <div class="icon__smily-faces icon__smily-faces--happy-face">
+                        <section class="basic-container__feedback">
+                            <ul class="horizontal-list horizontal-list--full-width">
+                                <li class="horizontal-list__item ">
 
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--shock">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--like">
 
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--thumb-up">
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Подобається
+                                        </h3>
+                                    </button>
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--comment">
 
-                        </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Коментувати
+                                        </h3>
+                                    </button>
+
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--twit">
+
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Поширити
+                                        </h3>
+                                    </button>
+
+                                </li>
+                            </ul>
+                        </section>
                     </div>
                     <div class="hr-line">
 
                     </div>
-                    <section class="basic-container__feedback">
-                        <ul class="horizontal-list horizontal-list--full-width">
-                            <li class="horizontal-list__item ">
+                    <section class="basic-container__comment">
 
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--like">
+                        <img src="static/img/me.jpg" alt="" class="image image--medium">
+                        <input type="text" placeholder="Напишіть коментар ..." class="basic-container__comment--input-field">
 
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Подобається
-                                    </h3>
-                                </button>
-                            </li>
-                            <li class="horizontal-list__item ">
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--comment">
-
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Коментувати
-                                    </h3>
-                                </button>
-
-                            </li>
-                            <li class="horizontal-list__item ">
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--twit">
-
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Поширити
-                                    </h3>
-                                </button>
-
-                            </li>
-                        </ul>
                     </section>
                 </div>
-                <div class="basic-container">
-                    <header class="basic-container__head">
-                        <img src="static/img/me.jpg" alt="" class="image image--big">
-                        <h3 class="basic-container__title">Анатолій Ipsum</h3>
+                <div class="basic-container basic-container--no-padding">
+                    <div class="basic-container--inner-wrapper">
+                        <header class="basic-container__head">
+                            <img src="static/img/me.jpg" alt="" class="image image--medium">
+                            <h3 class="basic-container__title">Анатолій Ipsum</h3>
 
-                    </header>
-                    <article class="basic-container__information--wrapper">
-                        <div class="basic-container__information--text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
-                            nihil
-                            nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
-                            excepturi
-                            explicabo impedit nobis sequi? Beatae, sint!
+                        </header>
+                        <article class="basic-container__information--wrapper">
+                            <div class="basic-container__information--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
+                                nihil
+                                nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
+                                excepturi
+                                explicabo impedit nobis sequi? Beatae, sint!
+                            </div>
+                        </article>
+
+                        <div class="basic-container__information__smily-faces">
+                            <div class="icon__smily-faces icon__smily-faces--love">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--happy-face">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--shock">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--thumb-up">
+
+                            </div>
+                            <a href="#" class="basic-container__lower-info">Tarik Vitoshko та ще 93</a>
                         </div>
-                    </article>
 
-                    <div class="basic-container__information__smily-faces">
-                        <div class="icon__smily-faces icon__smily-faces--love .icon__smily-faces--first">
+                        <div class="hr-line">
 
                         </div>
-                        <div class="icon__smily-faces icon__smily-faces--happy-face">
+                        <section class="basic-container__feedback">
+                            <ul class="horizontal-list horizontal-list--full-width">
+                                <li class="horizontal-list__item ">
 
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--shock">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--like">
 
-                        </div>
-                        <div class="icon__smily-faces icon__smily-faces--thumb-up">
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Подобається
+                                        </h3>
+                                    </button>
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--comment">
 
-                        </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Коментувати
+                                        </h3>
+                                    </button>
+
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--twit">
+
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Поширити
+                                        </h3>
+                                    </button>
+
+                                </li>
+                            </ul>
+                        </section>
                     </div>
                     <div class="hr-line">
 
                     </div>
-                    <section class="basic-container__feedback">
-                        <ul class="horizontal-list horizontal-list--full-width">
-                            <li class="horizontal-list__item ">
+                    <section class="basic-container__comment">
 
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--like">
+                        <img src="static/img/me.jpg" alt="" class="image image--medium">
+                        <input type="text" placeholder="Напишіть коментар ..." class="basic-container__comment--input-field">
 
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Подобається
-                                    </h3>
-                                </button>
-                            </li>
-                            <li class="horizontal-list__item ">
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--comment">
-
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Коментувати
-                                    </h3>
-                                </button>
-
-                            </li>
-                            <li class="horizontal-list__item ">
-                                <button class="button button--whitespace">
-                                    <div class="basic-container__feedback__icon-wrapper">
-                                        <div class="icon__sticker icon__sticker--twit">
-
-                                        </div>
-                                    </div>
-                                    <h3 class="basic-container__feedback__icon--header">
-                                        Поширити
-                                    </h3>
-                                </button>
-
-                            </li>
-                        </ul>
                     </section>
                 </div>
+                <div class="basic-container basic-container--no-padding">
+                    <div class="basic-container--inner-wrapper">
+                        <header class="basic-container__head">
+                            <img src="static/img/me.jpg" alt="" class="image image--medium">
+                            <h3 class="basic-container__title">Анатолій Ipsum</h3>
+
+                        </header>
+                        <article class="basic-container__information--wrapper">
+                            <div class="basic-container__information--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
+                                nihil
+                                nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
+                                excepturi
+                                explicabo impedit nobis sequi? Beatae, sint!
+                            </div>
+                        </article>
+
+                        <div class="basic-container__information__smily-faces">
+                            <div class="icon__smily-faces icon__smily-faces--love">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--happy-face">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--shock">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--thumb-up">
+
+                            </div>
+                            <a href="#" class="basic-container__lower-info">Tarik Vitoshko та ще 93</a>
+                        </div>
+
+                        <div class="hr-line">
+
+                        </div>
+                        <section class="basic-container__feedback">
+                            <ul class="horizontal-list horizontal-list--full-width">
+                                <li class="horizontal-list__item ">
+
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--like">
+
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Подобається
+                                        </h3>
+                                    </button>
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--comment">
+
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Коментувати
+                                        </h3>
+                                    </button>
+
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--twit">
+
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Поширити
+                                        </h3>
+                                    </button>
+
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="hr-line">
+
+                    </div>
+                    <section class="basic-container__comment">
+
+                        <img src="static/img/me.jpg" alt="" class="image image--medium">
+                        <input type="text" placeholder="Напишіть коментар ..." class="basic-container__comment--input-field">
+
+                    </section>
+                </div>
+                <div class="basic-container basic-container--no-padding">
+                    <div class="basic-container--inner-wrapper">
+                        <header class="basic-container__head">
+                            <img src="static/img/me.jpg" alt="" class="image image--medium">
+                            <h3 class="basic-container__title">Анатолій Ipsum</h3>
+
+                        </header>
+                        <article class="basic-container__information--wrapper">
+                            <div class="basic-container__information--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque necessitatibus
+                                nihil
+                                nulla optio quaerat sapiente soluta, veniam. Aspernatur blanditiis cum cupiditate enim
+                                excepturi
+                                explicabo impedit nobis sequi? Beatae, sint!
+                            </div>
+                        </article>
+
+                        <div class="basic-container__information__smily-faces">
+                            <div class="icon__smily-faces icon__smily-faces--love">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--happy-face">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--shock">
+
+                            </div>
+                            <div class="icon__smily-faces icon__smily-faces--thumb-up">
+
+                            </div>
+                            <a href="#" class="basic-container__lower-info">Tarik Vitoshko та ще 93</a>
+                        </div>
+
+                        <div class="hr-line">
+
+                        </div>
+                        <section class="basic-container__feedback">
+                            <ul class="horizontal-list horizontal-list--full-width">
+                                <li class="horizontal-list__item ">
+
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--like">
+
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Подобається
+                                        </h3>
+                                    </button>
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--comment">
+
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Коментувати
+                                        </h3>
+                                    </button>
+
+                                </li>
+                                <li class="horizontal-list__item ">
+                                    <button class="button button--whitespace">
+                                        <div class="basic-container__feedback__icon-wrapper">
+                                            <div class="icon__sticker icon__sticker--twit">
+
+                                            </div>
+                                        </div>
+                                        <h3 class="basic-container__feedback__icon--header">
+                                            Поширити
+                                        </h3>
+                                    </button>
+
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="hr-line">
+
+                    </div>
+                    <section class="basic-container__comment">
+
+                        <img src="static/img/me.jpg" alt="" class="image image--medium">
+                        <input type="text" placeholder="Напишіть коментар ..." class="basic-container__comment--input-field">
+
+                    </section>
+                </div>
+
+
             </section>
 
         </div>
@@ -610,7 +763,7 @@
 
                                 </div>
                             </div>
-                            <div class="basic-container__aside-information basic-container__aside-information--first">
+                            <div class="basic-container__aside-information basic-container__aside-information--stories basic-container__aside-information--first">
                                 <a href="#"><h3 class="basic-container__title">Додати до розповіді</h3></a>
                                 <span class="basic-container__lower-info">Поділіться світлиною, відео або напишіть щось</span>
                             </div>
@@ -621,7 +774,7 @@
                             <div class="stories__image-wrapper">
                                 <img src="static/img/me.jpg" alt="Андрій Моярчук" class="image image--story">
                             </div>
-                            <div class="basic-container__aside-information">
+                            <div class="basic-container__aside-information basic-container__aside-information--stories">
                                 <a href="#"><h3 class="basic-container__title">Андрій Моярчук</h3></a>
                                 <span class="basic-container__lower-info">15 годин тому</span>
                             </div>
@@ -630,7 +783,7 @@
                             <div class="stories__image-wrapper">
                                 <img src="static/img/me.jpg" alt="Андрій Моярчук" class="image image--story">
                             </div>
-                            <div class="basic-container__aside-information">
+                            <div class="basic-container__aside-information basic-container__aside-information--stories">
                                 <a href="#"><h3 class="basic-container__title">Андрій Моярчук</h3></a>
                                 <span class="basic-container__lower-info">15 годин тому</span>
                             </div>
@@ -639,7 +792,7 @@
                             <div class="stories__image-wrapper">
                                 <img src="static/img/me.jpg" alt="Андрій Моярчук" class="image image--story">
                             </div>
-                            <div class="basic-container__aside-information">
+                            <div class="basic-container__aside-information basic-container__aside-information--stories">
                                 <a href="#"><h3 class="basic-container__title">Андрій Моярчук</h3></a>
                                 <span class="basic-container__lower-info">15 годин тому</span>
                             </div>
@@ -677,13 +830,16 @@
                             <div class="basic-container__aside-information">
                                 <a href="#"><h3 class="basic-container__title">Anton Antonenko</h3></a>
                                 <span class="basic-container__lower-info">7 спільних друзів</span>
-                                <div class="block__row">
+                                <div class="basic-container__block-row">
                                     <button class="button button--grey">
+                                        <div class="icon icon--friend">
+
+                                        </div>
                                         Додати друга
                                     </button>
 
                                     <button class="button button--grey">
-                                        видалити
+                                        Видалити
                                     </button>
                                 </div>
 
@@ -698,13 +854,16 @@
                             <div class="basic-container__aside-information">
                                 <a href="#"><h3 class="basic-container__title">Anton Antonenko</h3></a>
                                 <span class="basic-container__lower-info">7 спільних друзів</span>
-                                <div class="block__row">
+                                <div class="basic-container__block-row">
                                     <button class="button button--grey">
+                                        <div class="icon icon--friend">
+
+                                        </div>
                                         Додати друга
                                     </button>
 
                                     <button class="button button--grey">
-                                        видалити
+                                        Видалити
                                     </button>
                                 </div>
 
@@ -719,13 +878,16 @@
                             <div class="basic-container__aside-information">
                                 <a href="#"><h3 class="basic-container__title">Anton Antonenko</h3></a>
                                 <span class="basic-container__lower-info">7 спільних друзів</span>
-                                <div class="block__row">
+                                <div class="basic-container__block-row">
                                     <button class="button button--grey">
+                                        <div class="icon icon--friend">
+
+                                        </div>
                                         Додати друга
                                     </button>
 
                                     <button class="button button--grey">
-                                        видалити
+                                        Видалити
                                     </button>
                                 </div>
 
@@ -740,13 +902,16 @@
                             <div class="basic-container__aside-information">
                                 <a href="#"><h3 class="basic-container__title">Anton Antonenko</h3></a>
                                 <span class="basic-container__lower-info">7 спільних друзів</span>
-                                <div class="block__row">
+                                <div class="basic-container__block-row">
                                     <button class="button button--grey">
+                                        <div class="icon icon--friend">
+
+                                        </div>
                                         Додати друга
                                     </button>
 
                                     <button class="button button--grey">
-                                        видалити
+                                        Видалити
                                     </button>
                                 </div>
 
@@ -772,8 +937,12 @@
                             <div class="basic-container__aside-information">
                                 <a href="#"><h3 class="basic-container__title">Anton Antonenko</h3></a>
                                 <span class="basic-container__lower-info">7 спільних друзів</span>
-                                <div class="block__row">
+                                <div class="basic-container__block-row">
+
                                     <button class="button button--grey">
+                                        <div class="icon icon--friend">
+
+                                        </div>
                                         підтвердити друга
                                     </button>
 
@@ -798,7 +967,7 @@
                     </ul>
                 </nav>
             </section>
-            <footer>
+            <footer class="basic-container basic-container--transparent">
                 <ul class="horizontal-list">
                     <li class="horizontal-list__item"><a href="#">Конфіденційність Умови користування</a></li>
                     <li class="horizontal-list__item"><a href="#">Розміщення реклами</a></li>
@@ -806,10 +975,9 @@
                     <li class="horizontal-list__item"><a href="#">Реп'яшки</a></li>
                     <li class="horizontal-list__item"><a href="#">ще</a></li>
                 </ul>
-                <h2>Facebook © 2019</h2>
+                <span class="greenish"><h4>Facebook © 2019</h4></span>
             </footer>
         </aside>
-        Web Assignment 1
     </main>
 </div>
 </body>

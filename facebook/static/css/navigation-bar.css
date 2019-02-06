@@ -5,7 +5,7 @@
 .navigation-bar {
 
     height: inherit;
-    width: 50%;
+    width: 40%;
     float: right;
     display: flex;
 }
@@ -38,4 +38,7 @@
     top: 12px;
     right: -10px;
     background-color: rgba(0, 0, 0, 0.1);
+}
+.navigation-toolbar--title-name{
+    padding: 5px 5px;
 }

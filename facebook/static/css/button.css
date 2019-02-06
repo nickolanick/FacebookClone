@@ -1,7 +1,10 @@
-.button{
-padding: 5px;
+.button {
+    padding: 5px;
+    color: #4b4f56;
+    cursor: pointer;
 }
-.button--whitespace{
+
+.button--whitespace {
     width: 100%;
     border: none;
     height: 100%;
@@ -9,23 +12,38 @@ padding: 5px;
     font-weight: 600;
     font-size: 13px;
     cursor: pointer;
-    padding: 2px 15px;
+    padding: 2px 23px;
+    border: 2px;
 
 }
-.button--grey-round{
+
+.button--grey {
+    background-color: #f5f6f7;
+    color: #4b4f56;
+    display: flex;
+    font-size: 11px;
+    font-weight: bold;
+    border-color: #ccd0d5;
+    margin: 2px;
+}
+
+.button--grey-round {
     background-color: #f5f6f7;
     border-radius: 10px;
     border: none;
     cursor: pointer;
     padding: 2px 20px;
 }
-.button--grey-round:hover{
-    background-color: #F5F6E6;
+
+.button--grey-round:hover,.button--grey:hover {
+    background-color: #ebedf0;
 }
-.button--whitespace:hover{
-    background-color: #f5f6f7;
+
+.button--whitespace:hover {
+    background-color: rgba(29, 33, 41, .04);
 }
-.button--blue{
+
+.button--blue {
     border: none;
     color: blue;
 }

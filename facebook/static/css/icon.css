@@ -8,7 +8,15 @@
     opacity: .6;
 
 }
-
+.icon--friend{
+    margin-right: 3px;
+    opacity: 1;
+    background-image: url(../img/friend.png);
+    background-size: 53px 334px;
+    width: 12px;
+    height: 12px;
+    background-position: -40px -226px;
+}
 .icon--plus {
     background-image: url(../img/plus.png);
     background-size: 53px 334px;

@@ -9,6 +9,7 @@
 
 .header-main__wrapper {
     height: inherit;
+    padding-right: 205px;
     width: 1012px;
     margin: auto;
 }

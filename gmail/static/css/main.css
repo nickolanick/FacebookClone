@@ -7,22 +7,22 @@ body, html {
   height: 100%;
 }
 
-.main-header .main-header__wrapper {
-  display: flex;
-  padding: 8px;
-}
-.main-header .main-header__wrapper .main-header__gmail-menu {
-  flex: 2;
-  display: flex;
-}
-.main-header .main-header__wrapper .main-header__gmail-search {
+.main-header__gmail-search {
   flex: 8;
   display: flex;
 }
-.main-header .main-header__wrapper .main-header__gmail-search .main-header__search-box {
+.main-header__search-box {
   flex: 3;
 }
-.main-header .main-header__wrapper .main-header__gmail-search .main-header__aside-block {
+.main-header__gmail-menu {
+  flex: 2;
+  display: flex;
+}
+.main-header__wrapper {
+  display: flex;
+  padding: 8px;
+}
+.main-header__aside-block {
   display: flex;
   flex: 10;
 }
@@ -58,24 +58,24 @@ body, html {
   display: flex;
   cursor: pointer;
 }
-.main-block .letters .letters__single-letter .letters__single-letter__info-about {
+.main-block .letters .letters__single-letter__info-about {
   flex: 3;
   display: flex;
 }
-.main-block .letters .letters__single-letter .letters__single-letter__pre-letter {
+.main-block .letters .letters__single-letter__pre-letter {
   flex: 6;
 }
-.main-block .letters .letters__single-letter .letters__single-letter__data-info {
+.main-block .letters .letters__single-letter__data-info {
   flex: 1;
 }
 .main-block .letters .letters__single-letter:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.list .list__item {
+.list__item {
   text-decoration: none;
 }
-.list .list__item--horizontal {
+.list__item--horizontal {
   display: inline-block;
 }
 

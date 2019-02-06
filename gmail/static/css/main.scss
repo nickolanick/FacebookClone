@@ -4,34 +4,33 @@
 }
 
 //$main-header-height = 60;
-body,html{
+body, html {
   height: 100%;
 }
+
 .main-header {
   //height: 60px;
 
-  .main-header__wrapper {
+  &__gmail-search {
+    flex: 8;
+    display: flex;
+  }
+  &__search-box {
+
+    flex: 3;
+  }
+  &__gmail-menu {
+    flex: 2;
+    display: flex;
+  }
+  &__wrapper {
     display: flex;
     padding: 8px;
-    .main-header__gmail-menu {
-      flex: 2;
-      display: flex;
-    }
 
-    .main-header__gmail-search {
-      flex: 8;
-      display: flex;
-
-      .main-header__search-box {
-
-        flex: 3;
-      }
-      .main-header__aside-block {
-        display:flex;
-        flex: 10;
-      }
-
-    }
+  }
+  &__aside-block {
+    display: flex;
+    flex: 10;
   }
 }
 
@@ -74,22 +73,22 @@ body,html{
       display: flex;
       cursor: pointer;
 
-      .letters__single-letter__info-about {
+      &__info-about {
         flex: 3;
         display: flex;
       }
-      .letters__single-letter__pre-letter {
+      &__pre-letter {
         flex: 6;
       }
-      .letters__single-letter__data-info {
+      &__data-info {
         flex: 1;
       }
 
     }
-    .letters__single-letter:hover{
+    .letters__single-letter:hover {
       //background-color: #4780de;
       //padding: 2px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
   }
 }
@@ -98,18 +97,17 @@ body,html{
 
 .list {
 
-  .list__item {
+  &__item {
     text-decoration: none;
   }
-  .list__item--horizontal {
+  &__item--horizontal {
     display: inline-block;
   }
 }
 
-
 //custom-hr
 
-.custom-hr{
+.custom-hr {
   height: 2px;
   width: 100%;
   background-color: #f5f7f7;
