@@ -11,6 +11,10 @@
     width: 40px;
     height: 40px;
 }
+.image--sm-x{
+    width: 32px;
+    height: 32px;
+}
 .image--abs {
     left: -28px;
     top: -4px;

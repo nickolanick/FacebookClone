@@ -38,9 +38,15 @@
 .basic-container__block-row {
     display: flex;
 }
+.basic-container__blue-nav{
+    color: #4267b2;
+    font-size: 12px;
+    cursor: pointer;
+}
 
 .basic-container__head {
     display: flex;
+    justify-content: space-between;
     padding: 5px 0;
 }
 
@@ -85,6 +91,7 @@
 
 .basic-container__information--text {
     padding: 5px;
+    font-size: 14px;
 }
 
 .basic-container__information--image-center {

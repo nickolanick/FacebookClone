@@ -37,38 +37,39 @@ body, html {
   float: left;
   height: calc(100% - 60px);
 }
-.main-block .main-block__navigation {
+.main-block__navigation {
   display: flex;
 }
-.main-block .main-block__navigation__letter-options {
+.main-block__navigation__letter-options {
   flex: 1;
 }
-.main-block .main-block__navigation__letter-options--right ul {
+.main-block__navigation__letter-options--right ul {
   float: right;
 }
-.main-block .letters {
+
+.letters {
   overflow: scroll;
   height: calc(100% - 50px);
   padding: 5px;
 }
-.main-block .letters .letters__single-letter--new {
+.letters__single-letter--new {
   background-color: #f5f7f7;
 }
-.main-block .letters .letters__single-letter {
+.letters__single-letter {
   display: flex;
   cursor: pointer;
 }
-.main-block .letters .letters__single-letter__info-about {
+.letters__single-letter__info-about {
   flex: 3;
   display: flex;
 }
-.main-block .letters .letters__single-letter__pre-letter {
+.letters__single-letter__pre-letter {
   flex: 6;
 }
-.main-block .letters .letters__single-letter__data-info {
+.letters__single-letter__data-info {
   flex: 1;
 }
-.main-block .letters .letters__single-letter:hover {
+.letters__single-letter:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 

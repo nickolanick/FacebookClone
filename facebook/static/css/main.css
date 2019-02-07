@@ -14,11 +14,14 @@ ul, li {
 }
 
 body {
+    margin-top: 0 !important;
     background-color: #e9ebee;
 }
 
 body, html {
     height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .content-wrapper {
@@ -52,11 +55,11 @@ main {
     position: fixed;
 }
 .rightAside {
-    width: 35%;
+    width: 38%;
 }
 
 .middle-block {
-    width: 65%;
+    width: 62%;
 }
 
 .relative-wrapper {
@@ -90,4 +93,7 @@ main {
     position: relative;
     background-color: #f5f6f7;
     padding: 5px;
+}
+figure{
+    display: flex;
 }

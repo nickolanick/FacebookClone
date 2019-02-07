@@ -3,6 +3,10 @@
     color: #4b4f56;
     cursor: pointer;
 }
+.button__none{
+    cursor: pointer;
+    border: none;
+}
 
 .button--whitespace {
     width: 100%;
@@ -12,7 +16,7 @@
     font-weight: 600;
     font-size: 13px;
     cursor: pointer;
-    padding: 2px 23px;
+    padding: 2px 18px;
     border: 2px;
 
 }
@@ -44,6 +48,7 @@
 }
 
 .button--blue {
+
     border: none;
-    color: blue;
+    color: #4267b2;
 }

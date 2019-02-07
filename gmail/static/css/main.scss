@@ -48,50 +48,53 @@ body, html {
   float: left;
   height: calc(100% - 60px);
 
-  .main-block__navigation {
+  &__navigation {
     display: flex;
-  }
-  .main-block__navigation__letter-options {
-    flex: 1;
-  }
-  .main-block__navigation__letter-options--right {
-    //float: right;
-    ul {
-      float: right;
+
+    &__letter-options {
+      flex: 1;
     }
-  }
-
-  .letters {
-    overflow: scroll;
-    height: calc(100% - 50px);
-    padding: 5px;
-    .letters__single-letter--new {
-      background-color: #f5f7f7;
-
-    }
-    .letters__single-letter {
-      display: flex;
-      cursor: pointer;
-
-      &__info-about {
-        flex: 3;
-        display: flex;
-      }
-      &__pre-letter {
-        flex: 6;
-      }
-      &__data-info {
-        flex: 1;
+    &__letter-options--right {
+      //float: right;
+      ul {
+        float: right;
       }
 
-    }
-    .letters__single-letter:hover {
-      //background-color: #4780de;
-      //padding: 2px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
   }
 }
+
+.letters {
+  overflow: scroll;
+  height: calc(100% - 50px);
+  padding: 5px;
+  &__single-letter--new {
+    background-color: #f5f7f7;
+
+  }
+  &__single-letter {
+    display: flex;
+    cursor: pointer;
+
+    &__info-about {
+      flex: 3;
+      display: flex;
+    }
+    &__pre-letter {
+      flex: 6;
+    }
+    &__data-info {
+      flex: 1;
+    }
+
+  }
+  &__single-letter:hover {
+    //background-color: #4780de;
+    //padding: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
 
 //list
 

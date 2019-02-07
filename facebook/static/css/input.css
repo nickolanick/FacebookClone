@@ -13,7 +13,7 @@
 }
 .input__wide,.input:focus{
     border: none;
-    outline: none;
+    /*outline: none;*/
 }
 
 .input--horizontal {

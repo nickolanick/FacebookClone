@@ -58,15 +58,29 @@
 .horizontal-list .horizontal-list__item {
     display: inline-block;
 }
+.horizontal-list__item--blue-a{
 
+}
 .horizontal-list__item--header-suite {
     color: #fff;
     padding: 10px 0;
 
 }
+.horizontal-list__item--dot{
+    /*padding: 5px;*/
+    margin: auto;
+}
+.horizontal-list__item__lang{
+    font-size: 13px;
+    color: #365899;
+    cursor: pointer;
+}
+.horizontal-list__item__lang--grey{
+    color: #90949c;
+}
 
 .horizontal-list__item--icons-suite {
-    padding: 10px 0;
+    padding: 10px 3px;
 }
 
 .horizontal-list__item__button {
